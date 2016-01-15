@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Grid_View</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Grid_View" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <g id="ic_view_module_black_24px" sketch:type="MSLayerGroup" transform="translate(4.000000, 4.000000)">
+                <g id="Group" transform="translate(0.120103, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M0.586405211,9.10584964 L9.55495549,9.10584964 L9.55495549,0 L0.586405211,0 L0.586405211,9.10584964 L0.586405211,9.10584964 Z M0.586405211,19.7293409 L9.55495549,19.7293409 L9.55495549,10.6234912 L0.586405211,10.6234912 L0.586405211,19.7293409 L0.586405211,19.7293409 Z M11.3486655,19.7293409 L20.3172158,19.7293409 L20.3172158,10.6234912 L11.3486655,10.6234912 L11.3486655,19.7293409 L11.3486655,19.7293409 Z M11.3486655,9.10584964 L20.3172158,9.10584964 L20.3172158,0 L11.3486655,0 L11.3486655,9.10584964 L11.3486655,9.10584964 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

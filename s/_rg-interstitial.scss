@@ -1,0 +1,10 @@
+#rgi{display:none;position:absolute;top:0;left:0;text-align:center;height:100%;background:#000;
+	@include rgBP(mobile) {width:100%;@include calc(height,"100% - "+$mobileStickyAdH); }
+	@include rgBP(tablet) {width:100%;@include calc(height,"100% - "+$tabletStickyAdH); }
+	@include rgBP(desktop) {@include calc(width,"100% -  "+$asideW);float:left;border-left:20px solid $black;border-right:20px solid $black;
+		body.jumpstart &{@include calc(height,"100% - "+$tabletStickyAdH);}
+	}
+	body.interstitial &{display:block;}
+	.rg-ad{@include centeredHV;}
+}
+.rgi-to-slide{display:block;margin-top:50px;color:$blue;}

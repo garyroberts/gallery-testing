@@ -1,0 +1,229 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; border: 0; }
+
+/*VARIABLES*/
+/*PLACEHOLDERS*/
+/* @extend placeholderName; grouped*/
+#rg-logo { background-image: url("../i/rg-sprite.png"); background-repeat: no-repeat; }
+
+#rg-all { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2030%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3EGrid_View%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Grid_View%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23FFFFFF%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22ic_view_module_black_24px%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%284.000000%2C%204.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%20transform%3D%22translate%280.120103%2C%200.000000%29%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0.586405211%2C9.10584964%20L9.55495549%2C9.10584964%20L9.55495549%2C0%20L0.586405211%2C0%20L0.586405211%2C9.10584964%20L0.586405211%2C9.10584964%20Z%20M0.586405211%2C19.7293409%20L9.55495549%2C19.7293409%20L9.55495549%2C10.6234912%20L0.586405211%2C10.6234912%20L0.586405211%2C19.7293409%20L0.586405211%2C19.7293409%20Z%20M11.3486655%2C19.7293409%20L20.3172158%2C19.7293409%20L20.3172158%2C10.6234912%20L11.3486655%2C10.6234912%20L11.3486655%2C19.7293409%20L11.3486655%2C19.7293409%20Z%20M11.3486655%2C9.10584964%20L20.3172158%2C9.10584964%20L20.3172158%2C0%20L11.3486655%2C0%20L11.3486655%2C9.10584964%20L11.3486655%2C9.10584964%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-close { background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D%22%23FFFFFF%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M12%202C6.47%202%202%206.47%202%2012s4.47%2010%2010%2010%2010-4.47%2010-10S17.53%202%2012%202zm5%2013.59L15.59%2017%2012%2013.41%208.41%2017%207%2015.59%2010.59%2012%207%208.41%208.41%207%2012%2010.59%2015.59%207%2017%208.41%2013.41%2012%2017%2015.59z%22/%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22/%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-share #rg-share-facebook { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2030%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3EShare_Facebook%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Share_Facebook%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23FFFFFF%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Oval-1-+-facebook2-copy%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%288.000000%2C%200.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22facebook2-copy%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M13%2C14.7%20L8.961%2C14.7%20L8.961%2C29.096%20L2.976%2C29.096%20L2.976%2C14.7%20L0.131%2C14.7%20L0.131%2C9.612%20L2.976%2C9.612%20L2.976%2C6.321%20C2.976%2C3.964%204.096%2C0.281%209.016%2C0.281%20L13.451%2C0.298%20L13.451%2C5.237%20L10.232%2C5.237%20C9.708%2C5.237%208.963%2C5.499%208.963%2C6.623%20L8.963%2C9.613%20L13.523%2C9.613%20L13%2C14.7%20L13%2C14.7%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-share #rg-share-twitter { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2030%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3EShare_Twitter%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Share_Twitter%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23FFFFFF%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Oval-2-+-twitter-copy%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%280.000000%2C%203.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22twitter-copy%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M25.901%2C6.144%20C25.912%2C6.39%2025.918%2C6.638%2025.918%2C6.886%20C25.918%2C14.437%2020.172%2C23.141%209.659%2C23.141%20C6.432%2C23.141%203.428%2C22.198%200.9%2C20.576%20C1.347%2C20.629%201.802%2C20.656%202.263%2C20.656%20C4.941%2C20.656%207.404%2C19.742%209.36%2C18.21%20C6.86%2C18.164%204.749%2C16.512%204.022%2C14.241%20C4.37%2C14.307%204.729%2C14.344%205.096%2C14.344%20C5.617%2C14.344%206.123%2C14.276%206.602%2C14.145%20C3.988%2C13.621%202.019%2C11.312%202.019%2C8.542%20C2.019%2C8.518%202.019%2C8.493%202.02%2C8.47%20C2.79%2C8.897%203.671%2C9.155%204.607%2C9.184%20C3.075%2C8.161%202.066%2C6.411%202.066%2C4.429%20C2.066%2C3.381%202.347%2C2.399%202.839%2C1.555%20C5.656%2C5.013%209.868%2C7.287%2014.616%2C7.527%20C14.518%2C7.108%2014.469%2C6.673%2014.469%2C6.224%20C14.469%2C3.069%2017.027%2C0.51%2020.182%2C0.51%20C21.826%2C0.51%2023.309%2C1.204%2024.353%2C2.314%20C25.656%2C2.058%2026.876%2C1.584%2027.983%2C0.927%20C27.553%2C2.262%2026.65%2C3.381%2025.467%2C4.089%20C26.624%2C3.951%2027.728%2C3.645%2028.749%2C3.19%20C27.987%2C4.334%2027.018%2C5.341%2025.901%2C6.144%20L25.901%2C6.144%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-share #rg-share-pinterest { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2030%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3EShare_Pinterest%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Share_Pinterest%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23FFFFFF%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Oval-2-+-share3-copy%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%284.000000%2C%201.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22share3-copy%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12.7098958%2C19.9286458%20C11.1067708%2C19.8046875%2010.434375%2C19.0109375%209.17916667%2C18.2479167%20C8.48854167%2C21.8703125%207.64427083%2C25.34375%205.14375%2C27.1578125%20C4.371875%2C21.6817708%206.27708333%2C17.5697917%207.1609375%2C13.2036458%20C5.653125%2C10.6651042%207.34322917%2C5.55520833%2010.5239583%2C6.81458333%20C14.4375%2C8.36302083%207.134375%2C16.2526042%2012.0364583%2C17.2385417%20C17.15625%2C18.2671875%2019.2458333%2C8.35625%2016.071875%2C5.13333333%20C11.4848958%2C0.480208333%202.72135417%2C5.02760417%203.79895833%2C11.690625%20C4.06145833%2C13.3197917%205.74375%2C13.8135417%204.47135417%2C16.0619792%20C1.53541667%2C15.4109375%200.659895833%2C13.096875%200.772395833%2C10.009375%20C0.953645833%2C4.9578125%205.3125%2C1.4203125%209.68229167%2C0.930729167%20C15.2098958%2C0.311979167%2020.3989583%2C2.95989583%2021.1151042%2C8.15989583%20C21.9223958%2C14.0296875%2018.6203125%2C20.3864583%2012.7098958%2C19.9286458%20L12.7098958%2C19.9286458%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-share #rg-share-email { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2230px%22%20height%3D%2230px%22%20viewBox%3D%220%200%2030%2030%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3EShare_Email%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Share_Email%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23FFFFFF%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Oval-2-+-email131-copy%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%282.000000%2C%204.000000%29%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22email131-copy%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M25.05%2C0.7%20L1.35%2C0.7%20C1.11666667%2C0.7%200.916666667%2C0.775%200.75%2C0.925%20C0.583333333%2C1.075%200.5%2C1.28333333%200.5%2C1.55%20L0.5%2C4.2%20C0.5%2C4.33333333%200.55%2C4.4%200.65%2C4.4%20L13.1%2C11.5%20L13.2002451%2C11.55%20C13.2666667%2C11.55%2013.3169118%2C11.5333333%2013.3502451%2C11.5%20L25.4002451%2C4.4%20C25.4666667%2C4.36666667%2025.5169118%2C4.35%2025.5502451%2C4.35%20C25.5833333%2C4.35%2025.6335784%2C4.33333333%2025.7002451%2C4.3%20C25.8335784%2C4.3%2025.9002451%2C4.23333333%2025.9002451%2C4.1%20L25.9002451%2C1.55%20C25.9002451%2C1.28333333%2025.8168301%2C1.075%2025.65%2C0.925%20C25.4831699%2C0.775%2025.2833333%2C0.7%2025.05%2C0.7%20L25.05%2C0.7%20Z%20M8.05%2C11.35%20C8.08333333%2C11.3166667%208.1%2C11.266585%208.1%2C11.2%20C8.1%2C11.0997549%208.06666667%2C11.05%208%2C11.05%20L0.85%2C6.9499183%20C0.75%2C6.91658497%200.666666667%2C6.91658497%200.6%2C6.9499183%20C0.533333333%2C6.9499183%200.5%2C6.9999183%200.5%2C7.0999183%20L0.5%2C17.8499183%20C0.5%2C17.9501634%200.55%2C18.016585%200.65%2C18.0499183%20L0.75%2C18.0499183%20C0.816666667%2C18.0499183%200.85%2C18.0332516%200.85%2C17.9999183%20L8.05%2C11.35%20L8.05%2C11.35%20Z%20M16.75%2C12.15%20C16.7166667%2C12.0497549%2016.6330882%2C12.0333333%2016.4997549%2C12.1%20L13.7497549%2C13.7%20C13.4164216%2C13.9%2013.0666667%2C13.9%2012.6997549%2C13.7%20L10.2997549%2C12.3502451%20C10.1997549%2C12.2835784%2010.1164216%2C12.2835784%2010.0497549%2C12.3502451%20L0.899754902%2C20.8502451%20C0.866421569%2C20.8833333%200.849754902%2C20.9502451%200.849754902%2C21.05%20C0.849754902%2C21.0833333%200.883088235%2C21.133415%200.949754902%2C21.2%20C1.1497549%2C21.2666667%201.28308824%2C21.3002451%201.3497549%2C21.3002451%20L24.7998366%2C21.3002451%20C24.8665033%2C21.3002451%2024.933415%2C21.2669118%2024.9998366%2C21.2%20C24.9998366%2C21.0666667%2024.9831699%2C20.9835784%2024.9498366%2C20.95%20L16.75%2C12.15%20L16.75%2C12.15%20Z%20M25.75%2C6.75%20L25.5502451%2C6.75%20L18.7502451%2C10.8%20C18.6838235%2C10.8%2018.6502451%2C10.85%2018.6502451%2C10.95%20C18.6169118%2C10.9833333%2018.6335784%2C11.0333333%2018.7%2C11.0997549%20L25.5%2C18.45%20C25.5666667%2C18.5166667%2025.6166667%2C18.5502451%2025.65%2C18.5502451%20L25.75%2C18.5502451%20C25.8502451%2C18.45%2025.9002451%2C18.3835784%2025.9002451%2C18.3502451%20L25.9002451%2C6.9500817%20C25.9%2C6.88333333%2025.85%2C6.81666667%2025.75%2C6.75%20L25.75%2C6.75%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); background-repeat: no-repeat; }
+
+#rg-previous:after { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2232px%22%20height%3D%2263px%22%20viewBox%3D%220%200%2032%2063%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3E9%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%229%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23E1E1E1%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22direction196%22%20sketch%3Atype%3D%22MSLayerGroup%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M30.3184047%2C60.2582393%20L0.0758830541%2C30.1282039%20L30.3184047%2C0%20L31.8851666%2C1.6538796%20L3.30582293%2C30.1282039%20L31.8851666%2C58.6031386%20L30.3184047%2C60.2582393%20Z%22%20id%3D%22Shape%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); }
+
+#rg-next:after { background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2232px%22%20height%3D%2263px%22%20viewBox%3D%220%200%2032%2063%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20xmlns%3Asketch%3D%22http%3A//www.bohemiancoding.com/sketch/ns%22%3E%0A%20%20%20%20%3C%21--%20Generator%3A%20Sketch%203.4.2%20%2815857%29%20-%20http%3A//www.bohemiancoding.com/sketch%20--%3E%0A%20%20%20%20%3Ctitle%3E9%3C/title%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C/desc%3E%0A%20%20%20%20%3Cdefs%3E%3C/defs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%229%22%20sketch%3Atype%3D%22MSArtboardGroup%22%20fill%3D%22%23E1E1E1%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22direction196%22%20sketch%3Atype%3D%22MSLayerGroup%22%20transform%3D%22translate%2816.069353%2C%2031.259717%29%20scale%28-1%2C%201%29%20translate%28-16.069353%2C%20-31.259717%29%20%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M30.3184047%2C60.2582393%20L0.0758830541%2C30.1282039%20L30.3184047%2C0%20L31.8851666%2C1.6538796%20L3.30582293%2C30.1282039%20L31.8851666%2C58.6031386%20L30.3184047%2C60.2582393%20Z%22%20id%3D%22Shape%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E"); }
+
+/*MIXINS*/
+/*	@include mixinName; copied	*/
+/*	@include border-box; 	*/
+/*	@include content-box; 	*/
+/*  @include opacity(0.8);  */
+/*	@include calc(width,"100% -  100px")	*/
+/*
+@mixin rgBP($breakpoint) { @if         	$breakpoint ==  "mobile" 	{  @media 	(max-width: 400px)      					{@content;&:after{content:""+$breakpoint;}}} @else if    	$breakpoint ==  "tablet" 	{  @media 	(min-width: 400px)  and (max-width: 770px)      {@content;&:after{content:""+$breakpoint;}}} @else if    	$breakpoint ==  "desktop"	{  @media 	(min-width: 770px)       					{@content;&:after{content:""+$breakpoint;}}}
+} */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/*****SHARE*****/
+dl { -webkit-margin-before: 0; -webkit-margin-after: 0; }
+
+#rg-share { height: 50px; position: absolute; top: 0; right: 100px; z-index: 100; padding-top: 10px; }
+@media (min-width: 770px) { #rg-share { right: 340px; } }
+@media (max-width: 415px) { #rg-share { display: none; } }
+#rg-share dt { display: none; }
+#rg-share dd { display: inline-block; width: 30px; height: 30px; text-indent: -9999px; line-height: 50px; text-align: center; opacity: 0.9; filter: alpha(opacity=90); margin-left: 10px; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; overflow: hidden; background-repeat: no-repeat; background-size: 18px 18px; background-position: center; }
+#rg-share dd a { display: block; width: 100%; height: 100%; }
+#rg-share dd:hover { opacity: 1; filter: alpha(opacity=100); }
+body.cover #rg-share { display: block; width: 100%; text-align: center; top: auto; left: 0; bottom: 140px; }
+@media (max-width: 415px) { body.cover #rg-share { bottom: 100px; } }
+@media (max-height: 480px) { body.cover #rg-share { bottom: 70px; } }
+body.cover #rg-share dt { display: block; text-transform: uppercase; }
+@media (max-height: 480px) { body.cover #rg-share dt { display: none; } }
+body.thumbs #rg-share { display: none; }
+#rg-share #rg-share-facebook { background-color: #2d5199; }
+#rg-share #rg-share-twitter { background-color: #178ccb; }
+#rg-share #rg-share-pinterest { background-color: #c82628; }
+#rg-share #rg-share-email { background-color: #939393; }
+
+/*****HEADER*****/
+#rg-header { width: 100%; height: 50px; position: fixed; top: 0; left: 0; z-index: 100; background: rgba(0, 0, 0, 0.5); border-bottom: 1px solid #fff; }
+
+#rg-logo { display: inline-block; height: 100%; line-height: 50px; width: 170px; height: 15px; overflow: hidden; background-position: 0 0; background-size: cover; text-indent: -9999px; margin-top: 16px; }
+
+#rg-all { width: 25px; height: 25px; position: absolute; top: 13px; right: 60px; background-size: 27px; text-indent: -9999px; opacity: 0.6; filter: alpha(opacity=60); }
+@media (min-width: 770px) { #rg-all { right: 299px; } }
+body.cover #rg-all { right: 50px; }
+#rg-all:hover { opacity: 1; filter: alpha(opacity=100); }
+
+.rg-count { display: none; }
+@media (min-width: 770px) { #rg-header .rg-count { display: block; position: absolute; top: 16px; right: 250px; } }
+@media (max-width: 415px) { #rg-details .rg-count { display: block; } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-details .rg-count { display: block; } }
+body.cover .rg-count { display: none; }
+.rg-count span { font-size: 13px; line-height: normal; color: #bcbcbc; }
+.rg-count span:first-child { font-weight: bold; color: white; }
+
+#rg-close { display: inline-block; width: 28px; height: 28px; position: absolute; top: 12px; right: 20px; background-size: 28px; -webkit-border-radius: 28px; -moz-border-radius: 28px; border-radius: 28px; overflow: hidden; text-indent: -9999px; opacity: 0.9; filter: alpha(opacity=90); }
+#rg-close:hover { opacity: 1; filter: alpha(opacity=100); }
+
+#rg-slide { height: 100%; position: relative; }
+@media (max-width: 415px) { #rg-slide { height: -webkit-calc(100% - 50px); height: -moz-calc(100% - 50px); height: calc(100% - 50px); } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-slide { height: -webkit-calc(100% - 50px); height: -moz-calc(100% - 50px); height: calc(100% - 50px); } }
+@media (min-width: 770px) { #rg-slide { width: -webkit-calc(100% -  320px); width: -moz-calc(100% -  320px); width: calc(100% -  320px); float: left; }
+  body.jumpstart #rg-slide { height: -webkit-calc(100% - 90px); height: -moz-calc(100% - 90px); height: calc(100% - 90px); } }
+body.cover #rg-slide, body.thumbs #rg-slide { display: none; }
+
+#rg-img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100%; max-height: 100%; }
+@media (min-width: 770px) { #rg-img { max-width: -webkit-calc(100% - 40px); max-width: -moz-calc(100% - 40px); max-width: calc(100% - 40px); } }
+
+#rg-nav { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+@media (min-width: 770px) { #rg-nav { width: -webkit-calc(100% -  40px); width: -moz-calc(100% -  40px); width: calc(100% -  40px); left: 20px; } }
+
+#rg-previous, #rg-next { display: block; width: 50%; height: 100%; border: 1px solid #02fff6; text-indent: -999999px; }
+#rg-previous:after, #rg-next:after { display: block; width: 50px; height: 84px; position: absolute; top: 50%; text-indent: 0; font-size: 100px; background-repeat: no-repeat; background-position: center; }
+#rg-previous:hover:after, #rg-next:hover:after { background-color: rgba(119, 119, 119, 0.3); }
+
+#rg-previous { float: left; }
+#rg-previous:after { content: ""; left: 0; text-align: left; }
+
+#rg-next { float: right; }
+#rg-next:after { content: ""; right: 0; text-align: right; }
+
+/*****DETAILS*****/
+#rg-details { background: rgba(0, 0, 0, 0.5); font-size: 13px; line-height: 18px; }
+@media (min-width: 415px) and (max-width: 770px) { #rg-details .rg-count { margin-bottom: 5px; } }
+#rg-details #rg-title { font-weight: bold; text-transform: uppercase; font-size: 13px; }
+@media (max-width: 415px) { #rg-details { position: absolute; bottom: 50px; width: 100%; padding: 20px; } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-details { position: absolute; bottom: 90px; width: 100%; padding: 20px; } }
+@media (min-width: 770px) { #rg-details { margin-top: 20px; margin-bottom: 50px; } }
+#rg-details #rg-caption { font-family: "Georgia", "Times New Roman", Times, serif; font-size: 13px; line-height: 18px; position: relative; }
+#rg-details #rg-caption p { color: #bcbcbc; }
+#rg-details #rg-caption a { color: #60a6dc; }
+@media (min-width: 770px) { #rg-details #rg-caption.closed { height: 129px; overflow: hidden; }
+  #rg-details #rg-caption.closed:after { content: "Read More"; display: block; width: 80px; height: 25px; background-color: lime; position: absolute; bottom: 0; right: 0; font-family: Arial; font-size: 10px; line-height: 25px; text-transform: uppercase; color: white; padding-right: 25px; } }
+#rg-details .rg-credit { display: inline-block; width: auto; height: 18px; font-size: 11px; line-height: normal; font-style: italic; }
+@media (min-width: 770px) { #rg-details .rg-credit { display: none; } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-details .rg-credit { padding-top: 10px; } }
+@media (max-width: 415px) { #rg-details .rg-credit { padding-top: 10px; } }
+body.thumbs #rg-details { display: none; }
+
+/*****ASIDE*****/
+@media (min-width: 770px) { #rg-aside { width: 320px; height: 100%; overflow-y: scroll; padding-right: 20px; float: right; padding-top: 50px; } }
+body.cover #rg-aside { display: none; }
+
+.rg-aside-module { margin-bottom: 50px; }
+@media (max-width: 415px) { .rg-aside-module { display: none; } }
+@media (min-width: 415px) and (max-width: 770px) { .rg-aside-module { display: none; } }
+
+.rg-teaser { display: block; border-top: 1px solid #6b6b6b; padding-top: 7px; }
+.rg-teaser:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.rg-teaser img { float: left; padding: 0 10px 0 7px; }
+.rg-teaser dt { font-size: 12px; line-height: 18px; font-style: italic; text-transform: uppercase; }
+.rg-teaser dd { font-size: 11px; line-height: 15px; color: #bcbcbc; }
+
+/*****COVER*****/
+#rg-cover { width: 100%; height: 100%; position: relative; overflow: hidden; background-position: 50% 50%; background-size: cover; text-align: center; }
+#rg-cover img { opacity: 0; }
+#rg-cover:after { content: " "; display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); position: absolute; top: 50px; left: 0; z-index: 0; }
+body.slide #rg-cover, body.thumbs #rg-cover { display: none; }
+
+#rg-headers { width: 100%; position: relative; z-index: 10; padding: 20px; }
+
+#rg-headline { font-size: 200%; line-height: 30px; margin-top: 100px; margin-bottom: 20px; }
+@media (max-width: 415px) { #rg-headline { font-size: 150%; margin-top: 50px; } }
+
+#rg-description { margin-bottom: 20px; }
+
+#rg-byline { text-transform: uppercase; font-weight: normal; }
+
+#rg-view { width: 100%; text-transform: uppercase; display: block; text-align: center; position: relative; z-index: 10; }
+#rg-view span { display: inline-block; background: rgba(255, 255, 255, 0.3); color: #fff; padding: 20px 50px; }
+
+/*****THUMBS*****/
+#rg-thumbs { position: relative; height: 100%; overflow: scroll; text-align: center; }
+@media (max-width: 415px) { #rg-thumbs { height: -webkit-calc(100% - 50px); height: -moz-calc(100% - 50px); height: calc(100% - 50px); } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-thumbs { height: -webkit-calc(100% - 50px); height: -moz-calc(100% - 50px); height: calc(100% - 50px); } }
+@media (min-width: 770px) { #rg-thumbs { width: -webkit-calc(100% -  320px); width: -moz-calc(100% -  320px); width: calc(100% -  320px); float: left; } }
+body.cover #rg-thumbs, body.slide #rg-thumbs { display: none; }
+#rg-thumbs ul { display: inline-block; text-align: center; text-align: center; }
+#rg-thumbs ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#rg-thumbs li { display: inline-block; width: 25%; }
+#rg-thumbs li:last-child { -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; overflow: hidden; }
+#rg-thumbs a { display: block; width: 100%; }
+#rg-thumbs a img { display: block; width: 100%; height: 100%; }
+
+/*****ENDLSTAE*****/
+#rg-endslate { display: none; width: 100%; }
+#rg-endslate main { text-align: center; width: 100%; }
+@media (min-width: 770px) { #rg-endslate main { width: -webkit-calc(100% -  320px); width: -moz-calc(100% -  320px); width: calc(100% -  320px); height: 100%; float: left; }
+  body.jumpstart #rg-endslate main { height: -webkit-calc(100% - 90px); height: -moz-calc(100% - 90px); height: calc(100% - 90px); } }
+@media (min-width: 770px) { #rg-endslate main .rg-next-gallery { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100%; max-height: 100%; } }
+#rg-endslate main .rg-next-gallery dt, #rg-endslate main .rg-next-gallery dd, #rg-endslate main .rg-next-gallery img { display: block; }
+#rg-endslate main .rg-next-gallery dt { font-size: 200%; }
+#rg-endslate aside { background: #02fff6; }
+@media (min-width: 770px) { #rg-endslate aside { width: 320px; height: 100%; overflow-y: scroll; padding-right: 20px; float: right; padding-top: 50px; } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-endslate aside { width: 100%; } }
+@media (max-width: 415px) { #rg-endslate aside { width: 100%; } }
+body.endslate #rg-endslate { display: block; }
+
+html, body { width: 100%; height: 100%; min-width: 300px; min-height: 480px; }
+
+body { font: 16px/20px "Arial"; background-color: #000; color: #fff; }
+
+a { color: #fff; text-decoration: none; }
+
+ul, li { list-style: none; }
+
+/*****BODY*****/
+#rg-body { width: 100%; height: 100%; }
+body.endslate #rg-body { display: none; }
+
+/*****ADS*****/
+.rg-ad { clear: both; background: #ebb0cc; }
+.rg-ad h6 { background: #ebb0cc; }
+
+#rg-ad-sticky-bottom { width: 100%; height: 50px; position: absolute; left: 0; bottom: 0; }
+@media (max-width: 415px) { #rg-ad-sticky-bottom { height: 50px; } }
+@media (min-width: 415px) and (max-width: 770px) { #rg-ad-sticky-bottom { height: 90px; } }
+@media (min-width: 770px) { #rg-ad-sticky-bottom { display: none; } }
+@media (min-width: 770px) { body.jumpstart #rg-ad-sticky-bottom { display: block; width: -webkit-calc(100% -  320px); width: -moz-calc(100% -  320px); width: calc(100% -  320px); height: 90px; } }
+@media (min-width: 770px) { body.cover #rg-ad-sticky-bottom { display: block; height: 90px; } }
+
+#rg-ad-02 { min-height: 250px; }
+
+/*****TEMP*****/
+h6 { background: #ff00a2; }
+
+#rg-cover { border: 1px solid red; }

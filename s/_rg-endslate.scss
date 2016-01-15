@@ -1,0 +1,44 @@
+/*****ENDLSTAE*****/
+#rge {display: none;width: 100%;
+	@include rgBP(tablet) {@include rgNoScroll;
+        	& > div {width: 100%;padding-right: 40px;}
+    	}
+    	@include rgBP(mobile) {@include rgNoScroll;
+       		& > div {width: 100%;padding-right: 40px;}
+	}
+    	main {text-align: center; width: 100%; position: absolute;
+		@include rgBP(tablet) {position: relative;}
+		@include rgBP(mobile) {position: relative;}
+		@include rgBP(desktop) {@include calc(width, "100% - "+$asideW);height: 100%;float:left;
+			body.jumpstart & {@include calc(height, "100% - "+$tabletStickyAdH);}
+		}
+		.rge-next-gallery {position: relative; z-index: 4; display: inline-block;
+			@include rgBP(desktop) { @include centeredHV; max-width:80%; }
+			@include rgBP(tablet) { width: 70%; }
+			@include rgBP(mobile) { width: 70%; }
+			dl {width: 100%;
+				@include rgBP(tablet) { margin-bottom: $tabletStickyAdH; margin-left: auto; margin-right: auto; }
+				@include rgBP(mobile) { margin-bottom: $mobileStickyAdH; margin-left: auto; margin-right: auto; }
+			}
+			 dt { display: block; width: 100%; font-family: $font-GA; color: $text-gray-light; text-align: left; font-style: italic; margin-bottom: 5px;
+				@include rgBP(tablet) { width: 100%; margin: 0 auto; }
+				@include rgBP(mobile) { width: 100%; margin: 0 auto; }
+				span { display: block; float: right; font-family: $font-AR; color: $link-blue; text-align: right; font-style: normal; }
+			}
+			img { display: block; height: auto; width:100%; }
+			dd {width: 100%; font-family: $font-AR; font-weight: bold; font-size: 24px; line-height: normal; text-align: left;
+				@include rgBP(tablet) { width: 100%; margin: 0 auto; font-size: 20px; }
+				@include rgBP(mobile) { width: 100%; margin: 0 auto; font-size: 14px; }
+			}
+		}
+       		#rge-to-cover { float:right; font-size: 14px; color: $blue; }
+	}
+    	aside {
+		@include rgBP(desktop) { width: $asideW; height: 100%; padding-right: $gPadding; float: right; padding-top: $headerH; }
+		@include rgBP(tablet) { width: 100%; margin-bottom: $tabletStickyAdH+$minWH; }
+		@include rgBP(mobile) { width: 100%; margin-bottom: $mobileStickyAdH+$minWH; }
+		.rge-header{
+			@include rgBP(tablet) { width: 300px; margin:0 auto; }
+		}
+	}
+}

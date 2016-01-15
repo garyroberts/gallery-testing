@@ -1,0 +1,109 @@
+/*
+rg = responsive gallery
+rgc = rg cover
+rgs = rg slide
+rge = rg endslate
+rgt = rg thumbs
+rga = rg aside
+*/
+/*VARIABLES*/
+$white:#fff;
+$black:#000;
+$red:#e8172d;
+$blue:#0099FF;
+
+$text-black:#333;
+$text-gray-light:#bebdbd;
+$text-gray-medium:#868686;
+$text-gray-dark:#666;
+
+$link-red:#e8172d;
+$link-blue:#015FB6;
+$link-black:#111;
+$dark-red:#c61426;
+$screamer-red:#D21910;
+
+$bg-black:#111;
+$bg-nav-gray:#222425;
+$bg-nav-dropdown:#545454;
+$bg-off-white:#fafafa;
+$bg-off-white-dark:#f0efef;
+
+$voting-blue:#076ee6;
+
+$auto-blue:#0084D4;
+$auto-light-blue:#00a2ff;
+$auto-grey:#e5e5e5;
+$auto-border-grey:#cecece;
+
+
+$font-AR:"Arial", sans-serif;
+$font-GA: "Georgia","Times New Roman",Times,serif;
+
+$fuchsia:#ff00a2;
+$turquoise:#02fff6;
+$adsBG:#ebb0cc;
+$gPadding:20px;
+$asideW:300px + $gPadding;
+$mobileStickyAdH:50px;
+$tabletStickyAdH:90px;
+$headerH:50px;
+$minWH:50px;
+$thumbW:175px;
+
+/*PLACEHOLDERS*/
+/* @extend placeholderName; grouped*/
+%rgClear{&:after { content:".";display:block;height:0;clear:both;visibility:hidden;} }
+%borderBox{-moz-box-sizing:border-box;box-sizing:border-box;}
+%contentBox{-moz-box-sizing:content-box;box-sizing:content-box;}
+
+// SPRITES
+%rg-icons {background-image:url("http://multimedia.nydailynews.com/css/rg/icons1.svg");background-repeat:no-repeat;}
+%rg-logo {background-image:url("http://multimedia.nydailynews.com/css/rg/NYDNLogo.svg");background-repeat:no-repeat;}
+
+
+
+/*MIXINS*/
+/*	@include mixinName; copied	*/
+@mixin borderBox{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+/*	@include borderBox; 	*/
+@mixin contentBox{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+/*	@include contentBox; 	*/
+@mixin rgClear{&:after{content:".";display:block;height:0;clear:both;visibility:hidden;}}
+/*  @include opacity(0.8);  */
+@mixin opacity($opacity){opacity:$opacity;$opacity-ie:$opacity * 100;filter:alpha(opacity=$opacity-ie);}
+@mixin rgNoScroll{height:100%;overflow:hidden;
+	& > div{height:100%;overflow-x:hidden;overflow-y:scroll;@include contentBox; padding-right:15px;}
+}
+@mixin rgBP($breakpoint) {
+    	@if         	$breakpoint ==  "mobile" 	{  @media 	(max-width: 415px)      						{@content;}}
+    	@else if    $breakpoint ==  "tablet"	 	{  @media 	(min-width: 415px)  and (max-width: 770px)     	{@content;}}
+    	@else if    $breakpoint ==  "desktop"	{  @media 	(min-width: 770px)       						{@content;}}
+    	@if    	$breakpoint ==  "smobile"	{  @media 	(max-height: 480px)       						{@content;}}
+}
+@mixin calc($property, $expression) {
+    	#{$property}: -webkit-calc(#{$expression});
+    	#{$property}: -moz-calc(#{$expression});
+    	#{$property}: calc(#{$expression});
+}
+/*	@include calc(width,"100% -  100px")	*/
+@mixin roundBorder($radius:100%) {
+  	-moz-border-radius: $radius;
+  	border-radius: $radius;
+  	overflow:hidden;
+}
+
+/*	@include border-radius(10px);	*/
+@mixin border-radius($radius) {-webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; background-clip: padding-box;}
+
+@mixin tempCircle{display:inline-block;width:$minWH;height:$minWH;background:$fuchsia;@include roundBorder(25px);text-align:center;overflow:hidden;line-height:$headerH;vertical-align:center;
+	a{display:block;width:100%;height:100%;}
+}
+
+@mixin centeredHV{position: absolute; top: 50%; left: 50%;-webkit-transform:translate(-50%, -50%);transform: translate(-50%, -50%); max-width:100%; max-height:100%; }
+
+
+/*@include transition(color .3s ease);*/
+@mixin transition($args...) {-webkit-transition:$args;-moz-transition:$args;-ms-transition:$args;-o-transition:$args;transition:$args;}
+
+*{@include borderBox;}
